@@ -345,3 +345,66 @@ a {
     background: #ffb900;
     border-radius: 25px;
 }
+/* Feedback */
+.feedback {
+    margin-top: 135px;
+    padding: 96px 0;
+    background-color: #2e2100;
+}
+.feedback .feedback-list {
+    display: flex;
+    overflow: hidden;
+}
+.feedback .feedback-item {
+    display: flex;
+    width: 100%;
+    flex-shrink: 0;
+}
+.feedback .avatar {
+    height: 72px;
+    width: 72px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.feedback .info .title {
+    font-family: var(--font-heading);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 1.42;
+    color: #f7f7f7;
+    margin-top: 18px;
+}
+.feedback-item .info .desc {
+    margin-top: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #bfbcb3;
+}
+.feedback-item .dots {
+    display: flex;
+    margin-top: 28px;
+    gap: 6px;
+}
+.feedback-item .dots .dot {
+    cursor: pointer;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #634700;
+}
+.feedback-item .dots .dot.active {
+    cursor: default;
+    background: var(--primary-color);
+}
+.feedback-item .content {
+    width: 66%;
+    margin-left: auto;
+}
+.feedback-item .content blockquote {
+    margin-left: 30px;
+    font-style: italic;
+    font-size: 2.6rem;
+    line-height: 1.54;
+    color: #ffffff;
+}
