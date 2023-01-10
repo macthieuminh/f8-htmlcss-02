@@ -46,6 +46,12 @@ a {
     font-size: 3.8rem;
     line-height: 1.26;
 }
+.row {
+    display: flex;
+}
+.row .column {
+    width: 21.6%;
+}
 .btn {
     display: inline-block;
     min-width: 118px;
@@ -563,4 +569,68 @@ a {
 .blog .dots {
     justify-content: center;
     margin-top: 38px;
+}
+/* Footer */
+.footer {
+    background-color: #2e2100;
+    padding: 96px 135px 28px;
+}
+.footer .row {
+    padding-bottom: 38px;
+    border-bottom: 1px solid #59554b;
+}
+.footer .row .column:first-child {
+    width: 35%;
+}
+.footer .logo {
+    width: 85px;
+    height: 34px;
+}
+.footer .title {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.75rem;
+    color: #fff;
+    padding-bottom: 14px;
+    padding-right: 48px;
+    border-bottom: 1px solid #59554b;
+}
+.footer .desc {
+    margin-top: 18px;
+    max-width: 267px;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #bfbcb2;
+}
+.footer .socials {
+    display: flex;
+    gap: 18px;
+    margin-top: 18px;
+}
+.footer .list {
+    margin-top: 28px;
+}
+.footer .list a {
+    display: inline-block;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #bfbcb2;
+    margin-top: 12px;
+}
+.footer .list:last-child a {
+    margin-bottom: none;
+}
+.footer .list strong {
+    font-weight: 600;
+    color: #fff;
+}
+.footer .copyright {
+    padding: 28px 0;
+}
+.footer .copyright p {
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #807d74;
+    text-align: center;
 }
