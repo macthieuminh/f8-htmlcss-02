@@ -13,6 +13,26 @@ body {
     font-size: 1.6rem;
     font-family: "Poppins", sans-serif;
 }
+html, body {
+    overflow: overlay;
+}
+
+::-webkit-scrollbar {
+    border-radius: 0;
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: 
+rgba(22, 24, 35, .2);
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 0;
+    background-color: 
+rgba(0, 0, 0, 0);
+}
 .line-clamp {
     display: -webkit-box;
     -webkit-line-clamp: var(--line-clamp, 1);
